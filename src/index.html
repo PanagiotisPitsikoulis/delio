@@ -1,0 +1,248 @@
+<!DOCTYPE html>
+<html lang="el">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>TheCarSite</title>
+    <link rel="stylesheet" href="output.css" />
+  </head>
+  <body>
+    <!-- Navigation bar -->
+    <nav
+      class="fixed top-0 z-20 w-full border-b start-0 bg-stone-900 border-stone-800"
+    >
+      <div
+        class="flex flex-wrap items-center justify-between max-w-screen-xl p-4 mx-auto"
+      >
+        <a class="flex items-center space-x-3 rtl:space-x-reverse">
+          <span
+            class="self-center text-2xl font-semibold whitespace-nowrap dark:text-white"
+            >TheCarSite</span
+          >
+        </a>
+        <div class="flex space-x-3 md:order-2 md:space-x-0 rtl:space-x-reverse">
+          <a href="./contact/index.html">
+            <button
+              type="button"
+              class="px-4 py-2 text-sm font-medium text-center text-white bg-blue-700 rounded-lg hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300 dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800"
+            >
+              Επικοινωνία
+            </button>
+          </a>
+        </div>
+        <div
+          class="items-center justify-between hidden w-full md:flex md:w-auto md:order-1"
+          id="navbar-sticky"
+        >
+          <ul
+            class="flex flex-col p-4 mt-4 font-medium border border-gray-100 rounded-lg md:p-0 bg-gray-50 md:space-x-8 rtl:space-x-reverse md:flex-row md:mt-0 md:border-0 md:bg-white dark:bg-gray-800 md:dark:bg-gray-900 dark:border-gray-700"
+          >
+            <li>
+              <a
+                class="block px-3 py-2 text-white bg-blue-700 rounded md:bg-transparent md:text-blue-700 md:p-0 md:dark:text-blue-500"
+                aria-current="page"
+                >Αρχική</a
+              >
+            </li>
+            <li>
+              <a
+                href="./about/index.html"
+                class="block px-3 py-2 text-gray-900 rounded hover:bg-gray-100 md:hover:bg-transparent md:hover:text-blue-700 md:p-0 md:dark:hover:text-blue-500 dark:text-white dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent dark:border-gray-700"
+                >Σχετικά Με Εμάς</a
+              >
+            </li>
+
+            <li>
+              <a
+                href="./contact/index.html"
+                class="block px-3 py-2 text-gray-900 rounded hover:bg-gray-100 md:hover:bg-transparent md:hover:text-blue-700 md:p-0 md:dark:hover:text-blue-500 dark:text-white dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent dark:border-gray-700"
+                >Επικοινωνία</a
+              >
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+    <div class="size-32"></div>
+    <!-- Hero Section -->
+    <header class="flex flex-col items-center justify-center gap-2">
+      <h2 class="text-gray-800 font-bold text-xl text-center sm:text-3xl">
+        TheCarSite
+      </h2>
+
+      <p class="max-w-md mt-4 text-center text-gray-600">
+        Το TheCarSite είναι ένας ολοκληρωμένος διαδικτυακός προορισμός για όλους
+        τους λάτρεις των αυτοκινήτων. Προσφέρει ενημερωτικά άρθρα, αναλύσεις,
+        και κριτικές για τα τελευταία μοντέλα αυτοκινήτων. Ανακαλύψτε τις
+        καλύτερες προσφορές, συμβουλές συντήρησης, και όλα όσα χρειάζεστε για το
+        επόμενο όχημά σας.
+      </p>
+    </header>
+    <div class="size-10"></div>
+    <div class="grid p-5 gap-4 md:p-20 md:pt-5">
+      <div>
+        <img class="object-cover w-full h-full"
+        src=https://images.pexels.com/photos/337909/pexels-photo-337909.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2"
+        alt="Main Car" />
+      </div>
+      <div class="grid grid-cols-3 gap-4">
+        <div>
+          <img
+            class="object-cover max-w-full h-full"
+            src="https://images.pexels.com/photos/1545743/pexels-photo-1545743.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2"
+            alt="Red Car"
+          />
+        </div>
+        <div>
+          <img
+            class="object-cover max-w-full h-full"
+            src="https://images.pexels.com/photos/457418/pexels-photo-457418.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2"
+            alt="Yellow Car"
+          />
+        </div>
+        <div>
+          <img
+            class="object-cover max-w-full h-full"
+            src="https://images.pexels.com/photos/1805053/pexels-photo-1805053.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2"
+            alt="Orange Car"
+          />
+        </div>
+      </div>
+    </div>
+
+    <!-- Divider -->
+    <span class="flex items-center">
+      <span class="flex-1 h-px bg-gray-700"></span>
+      <span class="px-6 shrink-0">Επιλεγμένα Αμάξια</span>
+      <span class="flex-1 h-px bg-gray-700"></span>
+    </span>
+
+    <section>
+      <div class="max-w-screen-xl mx-auto py-8 px-4 sm:py-12 sm:px-6 lg:px-8">
+        <header>
+          <h2 class="max-w-2xl text-gray-800 font-bold text-xl sm:text-3xl">
+            Ενδεδειγμένα Αμάξια - Η Κορυφαία Επιλογή για Απαιτητικούς Οδηγούς
+          </h2>
+
+          <p class="max-w-md mt-4 text-gray-600">
+            Ανακαλύψτε τα καλύτερα αυτοκίνητα της αγοράς, επιλεγμένα προσεκτικά
+            για την απόδοσή τους, την αξιοπιστία και τον μοναδικό τους
+            σχεδιασμό. Κάθε όχημα στην κατηγορία “Ενδεδειγμένα Αμάξια”
+            αντιπροσωπεύει την αιχμή της τεχνολογίας και της ποιότητας,
+            προσφέροντας μια ασύγκριτη οδηγική εμπειρία. Είτε ψάχνετε για
+            πολυτέλεια, ταχύτητα, ή οικονομία, εδώ θα βρείτε το ιδανικό όχημα
+            για τις ανάγκες σας.
+          </p>
+        </header>
+
+        <ul class="grid mt-8 gap-4 sm:grid-cols-2 lg:grid-cols-4">
+          <li>
+            <a href="cars/car1.html" class="block overflow-hidden">
+              <img
+                src="https://images.pexels.com/photos/27639778/pexels-photo-27639778/free-photo-of-white-toyota-sports-car-parked-in-an-underground-parking-lot.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2"
+                alt=""
+                class="w-full h-[350px] object-cover transition duration-500 sm:h-[450px]"
+              />
+
+              <div class="relative pt-3 bg-white">
+                <h3 class="text-xs text-gray-700">
+                  Toyota Corolla - Η Απόλυτη Επιλογή Αξιοπιστίας
+                </h3>
+              </div>
+            </a>
+          </li>
+
+          <li>
+            <a href="cars/car2.html" class="block overflow-hidden">
+              <img
+                src="https://images.pexels.com/photos/5381501/pexels-photo-5381501.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2"
+                alt=""
+                class="w-full h-[350px] object-cover transition duration-500 sm:h-[450px]"
+              />
+
+              <div class="relative pt-3 bg-white">
+                <h3 class="text-xs text-gray-700">
+                  BMW X5 - Πολυτέλεια και Δύναμη σε Ένα SUV
+                </h3>
+              </div>
+            </a>
+          </li>
+
+          <li>
+            <a href="cars/car3.html" class="block overflow-hidden">
+              <img
+                src="https://images.pexels.com/photos/23325521/pexels-photo-23325521/free-photo-of-white-tesla-model-3-on-street-in-city.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2"
+                alt=""
+                class="w-full h-[350px] object-cover transition duration-500 sm:h-[450px]"
+              />
+
+              <div class="relative pt-3 bg-white">
+                <h3 class="text-xs text-gray-700">
+                  Tesla Model 3 - Το Μέλλον της Ηλεκτροκίνησης
+                </h3>
+              </div>
+            </a>
+          </li>
+
+          <li>
+            <a href="cars/car4.html" class="block overflow-hidden">
+              <img
+                src="https://images.pexels.com/photos/3007436/pexels-photo-3007436.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2"
+                alt="Audi e-tron"
+                class="w-full h-[350px] object-cover transition duration-500 sm:h-[450px]"
+              />
+
+              <div class="relative pt-3 bg-white">
+                <h3 class="text-xs text-gray-700">
+                  Audi e-tron - Ηλεκτρική Απόδοση με Πολυτέλεια
+                </h3>
+              </div>
+            </a>
+          </li>
+        </ul>
+      </div>
+    </section>
+    <div class="flex items-center">
+      <span class="flex-1 h-px bg-gray-700"></span>
+      <span class="px-6 shrink-0 font-serif text-lg"
+        >Ανακαλύψτε την Ιστορία μας</span
+      >
+      <span class="flex-1 h-px bg-gray-700"></span>
+    </div>
+
+    <div class="mt-10"></div>
+
+    <!-- Info -->
+    <section class="overflow-hidden bg-gray-50 sm:grid sm:grid-cols-2">
+      <div class="p-8 md:p-12 lg:py-24 lg:px-16">
+        <div class="max-w-xl mx-auto text-center sm:text-left">
+          <h2
+            class="text-gray-800 font-extrabold text-3xl md:text-4xl font-serif"
+          >
+            Η Ιστορία Μας
+          </h2>
+
+          <p class="text-gray-600 md:mt-4 md:block">
+            Το 2020, μια ομάδα ατόμων με κοινό όραμα ενώθηκε για να δημιουργήσει
+            έναν οργανισμό αφιερωμένο στην παροχή πληροφοριών για αυτοκίνητα.
+          </p>
+
+          <div class="mt-4 md:mt-8">
+            <a
+              href="about/index.html"
+              class="inline-block px-12 py-3 text-sm font-medium text-white transition bg-blue-600 rounded hover:bg-blue-700 focus:outline-none focus:ring focus:ring-blue-400"
+            >
+              Μάθετε Περισσότερα
+            </a>
+          </div>
+        </div>
+      </div>
+
+      <img
+        alt="Η ομάδα μας"
+        src="https://images.pexels.com/photos/1438072/pexels-photo-1438072.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2"
+        class="object-cover w-full h-56 sm:h-full"
+      />
+    </section>
+  </body>
+</html>
